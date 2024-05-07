@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'MCST WiKi',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mcstio.png',
 
   // Set the production url of your site here
   url: 'https://wiki.mcst.io',
