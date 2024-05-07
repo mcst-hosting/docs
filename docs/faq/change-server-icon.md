@@ -24,6 +24,4 @@ This file cannot be in any folder. \
 The file should be 64x64 pixels. \
 The image should be formatted as a `.png` image file.
 
-{% hint style="info" %}
 You can use [this website](https://www.resizepixel.com/) to resize your icon.
-{% endhint %}
