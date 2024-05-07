@@ -1,5 +1,5 @@
 ---
-description: How to add plugins to your Minecraft Server on MCST
+sidebar_position: 3
 ---
 
 # Add Plugins

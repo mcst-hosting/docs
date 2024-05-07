@@ -1,5 +1,5 @@
 ---
-description: How to claim Giftcards on MCST Hosting
+sidebar_position: 9
 ---
 
 # Claim Giftcards

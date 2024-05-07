@@ -1,5 +1,5 @@
 ---
-description: How to fix connection refused errors on your Minecraft Server on MCST
+sidebar_position: 1
 ---
 
 # Connection Refused

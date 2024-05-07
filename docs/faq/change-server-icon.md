@@ -1,5 +1,5 @@
 ---
-description: How to change your Minecraft Server Icon on MCST
+sidebar_position: 7
 ---
 
 # Change Server Icon

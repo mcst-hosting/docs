@@ -1,5 +1,5 @@
 ---
-description: How to fix your suspended Minecraft Server on MCST
+sidebar_position: 2
 ---
 
 # Server Suspended

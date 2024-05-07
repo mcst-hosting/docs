@@ -1,5 +1,5 @@
 ---
-description: How to change the loader version of your Minecraft Server on MCST
+sidebar_position: 8
 ---
 
 # Change Server Version

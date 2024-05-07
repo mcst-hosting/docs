@@ -1,5 +1,5 @@
 ---
-description: How to upload files to your Minecraft Server on MCST
+sidebar_position: 13
 ---
 
 # Upload Files

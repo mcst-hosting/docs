@@ -1,5 +1,5 @@
 ---
-discription: How to activate affiliates on MCST hosting
+sidebar_position: 1
 ---
 
 # Activate Affiliates

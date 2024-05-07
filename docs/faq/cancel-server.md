@@ -1,5 +1,5 @@
 ---
-description: How to cancel your server on MCST Hosting
+sidebar_position: 4
 ---
 
 # How to cancel your server

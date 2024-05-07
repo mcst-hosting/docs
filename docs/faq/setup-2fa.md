@@ -1,5 +1,5 @@
 ---
-description: How to setup 2FA on MCST Hosting
+sidebar_position: 12
 ---
 
 # 2FA Setup

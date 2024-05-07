@@ -1,5 +1,5 @@
 ---
-description: How to make your Minecraft Server private on MCST
+sidebar_position: 10
 ---
 
 # Make Server Private

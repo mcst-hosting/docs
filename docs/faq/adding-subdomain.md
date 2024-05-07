@@ -1,5 +1,5 @@
 ---
-description: How to add a subdomain to your Minecraft Server on MCST
+sidebar_position: 2
 ---
 
 # Adding Subdomain

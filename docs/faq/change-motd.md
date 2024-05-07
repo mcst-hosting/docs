@@ -1,5 +1,5 @@
 ---
-description: How to change your Minecraft Server MOTD on MCST
+sidebar_position: 6
 ---
 
 # Change MOTD

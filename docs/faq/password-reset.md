@@ -1,5 +1,5 @@
 ---
-description: How to Reset your password on MCST
+sidebar_position: 11
 ---
 
 # Reset Password
