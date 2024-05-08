@@ -132,6 +132,9 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} MCST Hosting`,
       },
+      "colorMode": {
+        "defaultMode": "dark",
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
