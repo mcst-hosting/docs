@@ -13,10 +13,12 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy to Netlify
+      id: deploy
       uses: jsmrcaga/action-netlify-deploy@v2.2.0
       with:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
     - name: Finish
+      if: ${{ contains(run.outputs.deploy, '[INFO] Use `npm run serve` command to test your build locally.') }}
       run: echo "Deployment completed successfully"
