@@ -20,5 +20,5 @@ jobs:
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
     - name: Finish
-      if: ${{ contains(run.outputs.deploy, '[INFO] Use `npm run serve` command to test your build locally.') }}
+      if: ${{ contains(steps.deploy.outputs.output, '[INFO] Use `npm run serve` command to test your build locally.') }}
       run: echo "Deployment completed successfully"
