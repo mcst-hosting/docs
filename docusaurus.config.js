@@ -75,9 +75,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'Sidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Goto The Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: 'https://portal.mc-servers.tech/tickets/create', label: 'Submit Ticket', position: 'left'},
