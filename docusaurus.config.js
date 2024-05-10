@@ -41,10 +41,11 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/', // Serve the docs at the site's root
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mcst-hosting/docs/',
+            'https://github.com/mcst-hosting/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -95,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/intro',
               },
             ],
           },
@@ -103,16 +104,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://dc.mcst.io',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/mcsthosting',
               },
             ],
           },
@@ -131,6 +128,9 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} MCST Hosting`,
+      },
+      "colorMode": {
+        "defaultMode": "dark",
       },
       prism: {
         theme: prismThemes.github,
