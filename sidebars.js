@@ -15,12 +15,23 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   Sidebar: [
-    'intro',
+    'Introduction',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['what-is-asked/server-url'],
+      label: 'Frequent Issues',
+      link: {
+        type: 'generated-index',
+        title: 'Frequent Questions',
+        description:
+          "Some frequent questions we are asked a lot.",
+        keywords: ['faq'],
+      },
+      items: [
+        'frequent-issues/connection-refused',
+        'frequent-issues/server-suspended',
+      ],
     },
+    
   ],
 };
 
