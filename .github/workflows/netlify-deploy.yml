@@ -1,24 +1,15 @@
-name: Netlify Deploy
+name: 'Netlify Deploy'
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 
 jobs:
   deploy:
+    name: 'Deploy to Netlify'
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Deploy to Netlify
-      id: deploy
-      uses: jsmrcaga/action-netlify-deploy@v2.2.0
-      with:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-
-    - name: Finish
-      if: ${{ contains(steps.deploy.outputs.output, '[INFO] Use `npm run serve` command to test your build locally.') }}
-      run: echo "Deployment completed successfully"
+      - uses: jsmrcaga/action-netlify-deploy@v2.0.0
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.MY_TOKEN_SECRET }}
+          NETLIFY_DEPLOY_TO_PROD: "true"
