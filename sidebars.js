@@ -15,10 +15,10 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   sidebar: {
-    'Getting started': ['doc1'],
+    'Getting started': ['intro'],
     Docusaurus: {
-      'Basic guides': ['doc2', 'doc3'],
-      'Advanced guides': ['doc4', 'doc5'],
+      'Basic guides': ['faq/activate-affiliates', 'faq/cancel-server'],
+      'Advanced guides': ['faq/upload-files', 'faq/setup-2fa'],
     },
   },
 };
