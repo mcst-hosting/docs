@@ -34,7 +34,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '',
+      label: 'Guides',
       link: {
         type: 'generated-index',
         title: 'Guides',
