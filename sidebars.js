@@ -19,13 +19,13 @@ const sidebars = {
     {
       type: 'category',
       label: 'Frequent Issues',
+      collapsed: false,
       link: {
         type: 'generated-index',
         title: 'Frequent Questions',
         description:
           "Some frequent questions we are asked a lot.",
         keywords: ['faq'],
-      collapsed: false,
       },
       items: [
         'frequent-issues/connection-refused',
