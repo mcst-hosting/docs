@@ -14,13 +14,51 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  Sidebar: {
-    'Getting started': ['intro'],
-    Docusaurus: {
-      'Basic guides': ['faq/activate-affiliates', 'faq/cancel-server'],
-      'Advanced guides': ['faq/upload-files', 'faq/setup-2fa'],
+  Sidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Frequent Issues',
+      link: {
+        type: 'generated-index',
+        title: 'Frequent Questions',
+        description:
+          "Some frequent questions we are asked a lot.",
+        keywords: ['faq'],
+      collapsed: false,
+      },
+      items: [
+        'frequent-issues/connection-refused',
+        'frequent-issues/server-suspended',
+      ],
     },
-  },
+    {
+      type: 'category',
+      label: '',
+      link: {
+        type: 'generated-index',
+        title: 'Guides',
+        description:
+          "Some frequent questions we are asked a lot.",
+        keywords: ['guides'],
+      },
+      items: [
+        'faq/activate-affiliates',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+        'faq/',
+      ],
+    },
+  ],
 };
 
 export default sidebars;
