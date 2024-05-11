@@ -58,6 +58,9 @@ const sidebars = {
         'faq/upload-files',
       ],
     },
+    {
+      Others: ['what-is-asked/server-url'],
+    }
   ],
 };
 
