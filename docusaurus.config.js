@@ -77,7 +77,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'Sidebar',
             position: 'left',
-            label: 'Goto The Docs',
+            label: 'To The Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: 'https://portal.mc-servers.tech/tickets/create', label: 'Submit Ticket', position: 'left'},
