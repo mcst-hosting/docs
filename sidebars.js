@@ -30,6 +30,7 @@ const sidebars = {
       items: [
         'frequent-issues/connection-refused',
         'frequent-issues/server-suspended',
+        'frequent-issues/claim-giftcard'
       ],
     },
     {
@@ -51,7 +52,6 @@ const sidebars = {
         'faq/change-motd',
         'faq/change-server-icon',
         'faq/change-server-version',
-        'faq/claim-giftcard',
         'faq/make-server-private',
         'faq/password-reset',
         'faq/setup-2fa',
