@@ -19,6 +19,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Frequent Issues',
+      collapsed: false,
       link: {
         type: 'generated-index',
         title: 'Frequent Questions',
@@ -31,7 +32,35 @@ const sidebars = {
         'frequent-issues/server-suspended',
       ],
     },
-    
+    {
+      type: 'category',
+      label: 'Guides',
+      link: {
+        type: 'generated-index',
+        title: 'Guides',
+        description:
+          "Some frequent questions we are asked a lot.",
+        keywords: ['guides'],
+      },
+      items: [
+        'faq/activate-affiliates',
+        'faq/add-plugins',
+        'faq/adding-subdomain',
+        'faq/cancel-server',
+        'faq/change-email',
+        'faq/change-motd',
+        'faq/change-server-icon',
+        'faq/change-server-version',
+        'faq/claim-giftcard',
+        'faq/make-server-private',
+        'faq/password-reset',
+        'faq/setup-2fa',
+        'faq/upload-files',
+      ],
+    },
+    {
+      Others: ['what-is-asked/server-url'],
+    }
   ],
 };
 
