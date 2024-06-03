@@ -1,5 +1,5 @@
 # MCST Hostings Documentation
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bc4cff64-a9fe-43f4-9c70-49b357cede1c/deploy-status)](https://app.netlify.com/sites/mcsthosting/deploys) <br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a609725e-d7e0-40d1-bd8d-63cc4e489177/deploy-status)](https://app.netlify.com/sites/incandescent-selkie-240d8c/deploys)  <br>
 Built using Docusaurus.!
 
 ### Local Development
