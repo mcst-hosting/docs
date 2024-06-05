@@ -141,7 +141,7 @@ const config = {
       appId: 'ARWUWCZ082',
 
       // Public API key: it is safe to commit it
-      apiKey: 'e85ce51fe1c448e7a133ae3da4a11b48',
+      apiKey: 'f672f617e0fa35d59ce5477871d14395',
 
       indexName: 'mcstwiki',
 
