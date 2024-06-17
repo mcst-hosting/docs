@@ -136,6 +136,16 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'ARWUWCZ082',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'f672f617e0fa35d59ce5477871d14395',
+
+      indexName: 'mcstwiki',
+
+    },
     }),
 };
 
