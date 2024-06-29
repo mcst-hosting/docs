@@ -59,7 +59,7 @@ const sidebars = {
       ],
     },
     {
-      Others: ['what-is-asked/server-url'],
+      Others: ['what-is-asked/server-url','discord/commands'],
     }
   ],
 };
