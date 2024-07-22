@@ -1,14 +1,10 @@
 # 👋 MCST Hosting Documentation
 Build status: [![Netlify Status](https://api.netlify.com/api/v1/badges/a609725e-d7e0-40d1-bd8d-63cc4e489177/deploy-status)](https://app.netlify.com/sites/incandescent-selkie-240d8c/deploys)
 
----
-
-This is the documentation for [MCST.io](https://mcst.io)
+This is the documentation for [MCST.io](https://mcst.io)!</br>
 We are the **best** free host available.
 
 # 🦅 Contributing
-
----
 
 To contribute you must follow the steps in order below:
 1. Create a fork of our github repository by going [here](https://github.com/mcst-hosting/docs/fork)
@@ -16,8 +12,6 @@ To contribute you must follow the steps in order below:
 3. Create a pull request and our staff will merge your changes
 
 ## 📚 Document Format
-
----
 
 All documents (.mdx files located under /docs/) must contain the following at the head (beggining) of the file:
 ```
