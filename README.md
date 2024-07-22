@@ -66,4 +66,4 @@ When updating replace | with │ otherwise the username will not display properl
 |Discord Nickname|Discord Username|Github Username|
 |----------------|----------------|---------------|
 |`Saturn │ ./kill.py`|`@kinglyminecon`|`KinglyMinecon`|
-|`BijjuXD │ ./restart.sh`|`@bijjuxd`|`bij`|
+|`BijjuXD │ ./restart.sh`|`@bijjuxd`|`bijju089`|
