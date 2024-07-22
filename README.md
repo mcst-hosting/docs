@@ -11,7 +11,15 @@ To contribute you must follow the steps in order below:
 2. Make edites of the repository using the document format listed below
 3. Create a pull request and our staff will merge your changes
 
+---
+
+<details>
+
+<summary>
+
 ## 📚 Document Format
+
+</summary>
 
 All documents (.mdx files located under /docs/) must contain the following at the head (beggining) of the file:
 ```
@@ -27,11 +35,17 @@ description: <short description>
 ... rest of the document ...
 ```
 
+</details>
+
+<details>
+
+<summary>
+
 ## Local Development
 
----
+</summary>
 
-To run the docs locally and make edits locally you must first download and extract the file from our [github](https://mcst-hosting/docs)
+To run the docs locally and make edits locally you must first download and extract the file from our [github](https://mcst-hosting/docs)</br>
 Then open a command prompt or terminal in that folder and run
 ```
 $ yarn install
@@ -41,14 +55,15 @@ and then
 $ yarn start
 ```
 
+</details>
+
 ## 🐢 Contributers
 
----
-
-Here is a list of the awesome people who have contributed to our docs!
-If your name is missing do not hesitate to contact us on [discord](https://dc.mcst.io)!
+Here is a list of the awesome people who have contributed to our docs!</br>
+If your name is missing do not hesitate to contact us on [discord](https://dc.mcst.io)!</br>
+When updating replace | with │ otherwise the username will not display properly.</br>
 
 |Discord Nickname|Discord Username|Github Username|
 |----------------|----------------|---------------|
-|`Saturn | ./kill.py`|@kinglyminecon|KinglyMinecon|
-|`BijjuXD | ./restart.sh`|@bijjuxd|bij|
+|`Saturn │ ./kill.py`|`@kinglyminecon`|`KinglyMinecon`|
+|`BijjuXD │ ./restart.sh`|`@bijjuxd`|`bij`|
