@@ -47,13 +47,7 @@ const config = {
           editUrl:
             'https://github.com/mcst-hosting/docs/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/mcst-hosting/docs/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,7 +73,6 @@ const config = {
             position: 'left',
             label: 'To The Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {to: 'https://portal.mc-servers.tech/tickets/create', label: 'Submit Ticket', position: 'left'},
           {
             href: 'https://github.com/mcst-hosting',
@@ -116,10 +109,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/mcst-hosting',
