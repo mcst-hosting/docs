@@ -67,12 +67,6 @@ const config = {
           src: 'img/mcstio.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'Sidebar',
-            position: 'left',
-            label: 'To The Wiki',
-          },
 		  {
             href: 'https://mcst.io',
             label: 'Website',
