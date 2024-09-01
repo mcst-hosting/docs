@@ -63,7 +63,7 @@ const config = {
       navbar: {
         title: 'MCST Wiki',
         logo: {
-          alt: 'MCSTIO',
+          alt: 'MCST Logo',
           src: 'img/mcstio.png',
         },
         items: [
@@ -73,7 +73,16 @@ const config = {
             position: 'left',
             label: 'To The Wiki',
           },
-          {to: 'https://portal.mc-servers.tech/tickets/create', label: 'Submit Ticket', position: 'left'},
+		  {
+            href: 'https://mcst.io',
+            label: 'Website',
+            position: 'left',
+          },
+		  {
+            href: 'https://dc.mcst.io',
+            label: 'Support',
+            position: 'left',
+          },
           {
             href: 'https://github.com/mcst-hosting',
             label: 'GitHub',
